@@ -1,0 +1,8 @@
+---
+outline_docker_image: outlinewiki/outline:latest
+
+outline_docker_network: bridge
+outline_docker_publish_ports: ["127.0.0.1:3000:3000"]
+
+outline_docker_envs: []
+outline_docker_labels: []
